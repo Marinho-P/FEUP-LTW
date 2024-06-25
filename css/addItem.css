@@ -1,0 +1,98 @@
+.add_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.add_item h2 {
+    font-size: 2.5em;
+    color: #2e101c;
+    margin-bottom: 30px;
+}
+
+.add_item form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40em; 
+}
+
+.add_item label {
+    font-size: 1.5em;
+    color: #2e101c;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.add_item input[type="text"],
+.add_item input[type="number"],
+.add_item select,
+.add_item textarea {
+    font-family: 'Baloo 2';
+    font-size: 1.2em;
+    background-color: #d9d9d9;
+    color: #2e101c;
+    padding: 1em;
+    border-radius: 2em;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 1.5em;
+    resize: none;
+} 
+
+.add_item button {
+    font-family: 'Baloo 2';
+    background-color: #2e101c;
+    color: #EFF7E8;
+    font-family: 'Baloo 2';
+    font-weight: 700;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10em; 
+    margin-top: 20px;
+    margin: 1em;
+}
+
+.add_item button:hover {
+    background-color: #3c1524;
+}
+
+.add_item #profile-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    object-fit:cover;
+}
+
+.add_item ::placeholder {
+    color: #2e101c;
+    opacity: 0.7;
+    font-size: 1.2em;
+    font-family: 'Baloo 2';
+}
+
+.add_item form a {
+    color: #EFF7E8;
+    text-decoration: none;
+}
+
+.add_item form a:hover {
+    color: #777;
+}
+
+.error-message {
+    color: #a30808;
+    font-size: 1.2em;
+    margin-top: 10px;
+}

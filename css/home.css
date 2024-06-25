@@ -1,0 +1,31 @@
+#categories h2 {
+    font-size: 2.5em;
+    color: #2e101c;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#categories ul{
+    margin: 0;
+    padding: 0;
+}
+
+#categories li {
+    text-align: center;
+    list-style-type: none;
+    padding: 1em 0;
+}
+
+#categories li a {
+    color:#2e101c;
+    text-decoration: none;
+}
+
+#categories li:hover {
+    background-color:#2e101c;
+}
+
+#categories li:hover a {
+    color:#EFF7E8;
+}

@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Baloo 2';
+    color: #2e101c;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EFF7E8;
+}
+
+main {
+    min-height: 90vh;
+    width: 100%;
+    
+}
+
+#header {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 10vh;
+    left: 0;
+    top: 0;
+}
+
+header {
+    background-color: #2e101c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EFF7E8;
+}
+
+header img {
+    max-width: 70px;
+    max-height: 70px;
+    margin-right: auto;
+    padding-left: 1em;
+}
+
+a{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+i {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    color: #EFF7E8;
+    z-index: 1;
+    padding:1.5em;
+    display: flex;
+}
+
+footer {
+    background-color: #EFF7E8;
+    color: #2e101c;
+    text-align: center;
+    padding:10px 0;
+    margin-top: auto;
+  }

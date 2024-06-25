@@ -1,0 +1,73 @@
+li i {
+    color: #2e101c;
+    font-size: 1.1em;
+}
+
+button i {
+    color: #EFF7E8;
+    font-size: 1em;
+}
+
+.profile_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.1em;
+}
+
+.profile_info li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.profile_info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+    object-fit:cover;
+    margin-top: 3em;
+}
+
+.user_details {
+    margin-top: 20px;
+}
+
+.user_details ol {
+    padding: 1em;
+}
+
+.user_details ol li {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 6em;
+    padding-bottom: 1em;
+}
+
+.edit_profile,
+.log_out {
+    font-family: 'Baloo 2';
+    background-color: #2e101c;
+    color: #EFF7E8;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin: 1em;
+    padding-right: 2em;
+    transition: background-color 0.3s ease;
+    width: 13em;
+}
+
+.edit_profile:hover,
+.log_out:hover {
+    background-color: #3c1524;
+}
+
+strong {
+    font-size: 1.2em;
+}
